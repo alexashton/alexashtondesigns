@@ -1,0 +1,216 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family:"Trebuchet MS",Helvetica,sans-serrif;
+	background-color: #333333;
+}
+header {
+	width: 80%;
+	background-color: black;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	overflow:hidden;
+
+}
+
+/* colors work, decoration does not */
+
+a:link.main {
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited.main {
+	color:black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover.main {
+	color:grey;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:active.main {
+	color:red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* sets the link format behavior on the portfolio page */
+
+a:link.portfolio-links {
+	color:black;
+	text-decoration: none; 
+}
+
+a:visited.portfolio-links {
+	color:black;
+	text-decoration:none; 
+}
+
+a:hover.portfolio-links {
+	color:red;
+	text-decoration: none;
+}
+
+a:active.portfolio-links {
+	color:red;
+	text-decoration: none;
+}
+
+/* sets the link format behavior on the subheader of the resume page */
+
+a:link.resume-links {
+	color:red;
+	text-decoration: none; 
+}
+
+a:visited.resume-links {
+	color:red;
+	text-decoration:none; 
+}
+
+a:hover.resume-links {
+	color:black;
+	text-decoration: none;
+}
+
+a:active.resume-links {
+	color:red;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 1.6;
+}
+
+h3 {font-size: 1.3;
+}
+
+hgroup {
+	width:70%;
+	float:left;
+
+}
+
+hgroup h1 {
+	padding-top:0;
+	line-height:1em;
+}
+
+hgroup h2 {
+	text-transform:uppercase;
+	font-size:1.2em;
+	line-height:1em;
+}
+
+/* header and footer navigation menus */
+
+nav {
+	
+	float:right;
+}
+
+nav ul {
+	list-style-type:none;
+}
+
+nav li {
+	float:left;
+	margin-right:5px;
+}
+
+/* sets the behavior of links in the header and footer navigation menus */
+
+nav a:link {
+	color:white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color:red;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:yellow;
+	text-decoration: none;
+}
+
+nav a:active {
+	color:yellow;
+	text-decoration: none;
+}
+
+/* generic section behavior */
+
+section {
+	width: 80%;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+	padding:5px;
+	background: linear-gradient(hsl(0, 0%, 85%), white 6.83em);
+}
+
+/* makes the pictures responsive to browser size and mobile */
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+	width:80%;
+	margin-left:10px;
+}
+
+p {
+	margin: 10px;
+}
+
+/* responsive tables and columns on the portfolio page */
+
+img.table-images	{
+	margin:0px 0px 0px 0px;
+	box-shadow:0px 0px 0px 0px;
+	width:260px;
+	height:260px;
+}
+
+/* removes margin and shadow from header image */
+
+img.header-icon {
+	margin:0px 0px 0px 0px;
+	box-shadow:0px 0px 0px 0px;
+	max-width: 100%;
+	height: auto !important;
+}
+
+
+footer {
+	width: 80%;
+	background-color: black;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	height:70px;
+	padding:10px;
+}
